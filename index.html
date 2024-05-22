@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rakam's Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/2284c47d0b.js" crossorigin="anonymous"></script>
+<body>
+    <div id="tops">
+        <div class="container">
+            <nav>
+                <img src="photo/rakamlogo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#tops">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="head-txt">
+                <p>Senior Geotechnical Engineer</p>
+                <h1>Hello,I'm<span> Rakam Lama Tamang</span> <br> From United States</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------About------------------------------------->
+    <div id="about">
+        <div class="contained">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/rakam.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="about-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus magni.
+                     Velit, ipsam consectetur nisi molestias soluta sapiente ipsa architecto doloribus
+                      quia recusandae optio praesentium, porro voluptate amet sit sunt.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Computer-Aided Design (CAD)</span><br>Architectural Design</li>
+                            <li><span>Programming</span><br>automating calculations and developing custom software solutions</li>
+                            <li><span>Mathematics</span><br> strong mathematical skills</li>
+                        </ul>
+                      </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024-Current</span><br>Working in different fields of geotech as well as civil works</li>
+                                <li><span>2017-2024</span><br> Senior Geotech Engineer in Tetratech</li>
+                                <li><span>2015-2017</span><br>Civil Engineer in the American site</li>
+                                <li><span>2012-2013</span><br>Civil Engineer in the RAIDP project</li>
+                            </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-current</span><br>PHD from Temple University, AI in Geotechnical Engineering</li>
+                            <li><span>2014-2016</span><br>Masters from Southern Illinois, Geotechnical Engineering</li>
+                            <li><span>2008-2012</span><br>Bachelors from Pulchowk Campus,Civil Engineering</li>
+                            <li><span>2005-2007</span><br>Intermediate from Nist College,Major Science</li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-------------------------Services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subTitle">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Architectural Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, reprehenderit culpa vero consequatur inventore minus asperiores sunt dolore, nostrum accusamus quaerat quae modi doloribus in, adipisci incidunt excepturi commodi consequuntur!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Geotechnical Calculations</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, reprehenderit culpa vero consequatur inventore minus asperiores sunt dolore, nostrum accusamus quaerat quae modi doloribus in, adipisci incidunt excepturi commodi consequuntur!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Computer Aided Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, reprehenderit culpa vero consequatur inventore minus asperiores sunt dolore, nostrum accusamus quaerat quae modi doloribus in, adipisci incidunt excepturi commodi consequuntur!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subTitle">My Work</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="photo/work1.jpg">
+                    <div class="layer">
+                        <h3>Geotechnical work</h3>
+                        <p>This work can examine the soil and also the foundation of the buildings.
+                            You can see in the Google.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        
+                <div class="work">
+                    <img src="photo/work2.jpg">
+                    <div class="layer">
+                    <h3>Computer Aided Design</h3>
+                        <p>This work can make a design work and also design the foundation of the buildings.
+                            You can see in the Google.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="photo/work3.jpeg">
+                    <div class="layer">
+                    <h3>Soil Examining</h3>
+                        <p>This work can examine the soil and also the foundation of the buildings.
+                            You can see in the Google.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------Contact us--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    
+                        <h1 class="subTitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>rakamkumar09@gmail.com</p>
+                        <p>+1(618)303-4251</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/rakam.lama"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/rakam-tamang-pe-m-asce-0939a941/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/rakamtamang12/"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2" id="submitBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    document.getElementById("submitBtn").addEventListener("click", function() {
+                        // Change button color to green
+                        this.style.backgroundColor = "green";
+                        // Optionally, disable the button to prevent multiple submissions
+                        this.disabled = true;
+                        // You may also submit the form here if needed
+                        // document.forms["submit-to-google-sheet"].submit();
+                    });
+                });
+            </script>
+        
+    </div>
+    <footer class="copyright">
+        <p>Copyright © Milan. All rights reserved.</p>
+    </footer>
+    <script>
+        var tabLinks=document.getElementsByClassName("tab-links");
+        var tabContents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tabLink of tabLinks)
+            {
+                tabLink.classList.remove("active-links");
+            }
+            for(tabContent of tabContents)
+            {
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyg2VQRqOo4kh9hkTxVpFdlnE3sE707dP402MruCPLZ9w1_CNOsh8ctGnbC0qjkqQFk/exec>';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
